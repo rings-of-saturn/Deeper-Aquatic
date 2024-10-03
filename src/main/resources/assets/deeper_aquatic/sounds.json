@@ -1,0 +1,11 @@
+{
+  "prismium_idle": {
+    "sounds": [
+      {
+        "name": "deeper_aquatic:prismium_idle",
+        "subtitle": "prismium.idle",
+        "stream": true
+      }
+    ]
+  }
+}
