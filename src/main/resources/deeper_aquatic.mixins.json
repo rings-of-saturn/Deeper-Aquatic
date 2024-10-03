@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "rings_of_saturn.github.io.deeper_aquatic.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "PlayerSweepMixin"
+  ],
+  "client": [
+    "ItemRendererAccessor",
+    "ItemRendererMixin",
+    "ModelLoaderMixin",
+    "PlayerEntityModelMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

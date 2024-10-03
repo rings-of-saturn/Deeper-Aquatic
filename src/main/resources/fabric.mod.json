@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "deep_sea",
+  "version": "${version}",
+  "name": "Deep Sea",
+  "description": "A mod that changes skins dynamically based on your enviourment!",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/deeper_aquatic/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "rings_of_saturn.github.io.deeper_aquatic.client.DeeperAquaticClient"
+    ],
+    "main": [
+      "rings_of_saturn.github.io.deeper_aquatic.DeeperAquatic"
+    ]
+  },
+  "mixins": [
+    "deeper_aquatic.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
