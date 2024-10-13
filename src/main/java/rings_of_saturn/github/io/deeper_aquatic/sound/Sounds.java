@@ -8,6 +8,8 @@ import net.minecraft.util.Identifier;
 import static rings_of_saturn.github.io.deeper_aquatic.DeeperAquatic.MOD_ID;
 
 public class Sounds {
+    public static SoundEvent PRISMIUM_SABER_SWING = registerSoundEvent("prismium_saber_swing");
+    public static SoundEvent PRISMIUM_SABER_DASH = registerSoundEvent("prismium_saber_dash");
     public static SoundEvent PRISMIUM_IDLE = registerSoundEvent("prismium_idle");
 
 

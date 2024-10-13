@@ -12,7 +12,7 @@ public class PrismiumParticle extends SpriteBillboardParticle {
     protected PrismiumParticle(ClientWorld clientWorld, double x, double y, double z, double d, SpriteProvider spriteProvider) {
         super(clientWorld, x, y, z, 0.0, 0.0, 0.0);
         this.spriteProvider = spriteProvider;
-        this.maxAge = 4;
+        this.maxAge = 8;
         float f = this.random.nextFloat() * 0.6F + 0.4F;
         this.red = f;
         this.green = f;

@@ -8,6 +8,8 @@ import net.minecraft.item.SwordItem;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.Rarity;
+import rings_of_saturn.github.io.deeper_aquatic.components.ModComponents;
 import rings_of_saturn.github.io.deeper_aquatic.item.custom.PrismiumItem;
 import rings_of_saturn.github.io.deeper_aquatic.item.custom.PrismiumSaberItem;
 import rings_of_saturn.github.io.deeper_aquatic.materials.ToolMaterials;
@@ -28,7 +30,10 @@ public class Items {
                                     1.75d, EntityAttributeModifier.Operation.ADD_VALUE), AttributeModifierSlot.MAINHAND)
                     .with(EntityAttributes.GENERIC_MOVEMENT_SPEED,
                             new EntityAttributeModifier(Identifier.of(EntityAttributes.GENERIC_MOVEMENT_SPEED.getIdAsString()),
-                                    -0.02d, EntityAttributeModifier.Operation.ADD_VALUE), AttributeModifierSlot.MAINHAND))));
+                                    -0.02d, EntityAttributeModifier.Operation.ADD_VALUE), AttributeModifierSlot.MAINHAND))
+                    .rarity(Rarity.RARE)
+                    .component(ModComponents.DASH_CHARGE, (byte)0)
+                    .component(ModComponents.BLOCKING, (byte)0)));
 
     public static void registerItems() {
     }

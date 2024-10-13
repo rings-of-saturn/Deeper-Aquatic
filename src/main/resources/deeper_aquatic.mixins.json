@@ -4,9 +4,10 @@
   "package": "rings_of_saturn.github.io.deeper_aquatic.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
-    "PlayerSweepMixin"
+    "PlayerEntityMixin"
   ],
   "client": [
+    "PlayerSweepMixin",
     "ItemRendererAccessor",
     "ItemRendererMixin",
     "ModelLoaderMixin",

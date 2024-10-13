@@ -15,8 +15,7 @@ import rings_of_saturn.github.io.deeper_aquatic.item.Items;
 public class PlayerEntityModelMixin {
     @Inject(method = "getArmPose", at = @At("TAIL"), cancellable = true)
     private static void changeArmPose(AbstractClientPlayerEntity player, Hand hand, CallbackInfoReturnable<BipedEntityModel.ArmPose> cir){
-        if(player.getStackInHand(Hand.MAIN_HAND).getItem() == Items.PRISMIUM_SABER ||
-                player.getStackInHand(Hand.OFF_HAND).getItem() == Items.PRISMIUM_SABER){
+        if(player.getStackInHand(Hand.MAIN_HAND).getItem() == Items.PRISMIUM_SABER || player.getStackInHand(Hand.OFF_HAND).getItem() == Items.PRISMIUM_SABER){
             cir.setReturnValue(BipedEntityModel.ArmPose.CROSSBOW_CHARGE);
         }
 

@@ -4,7 +4,9 @@ import net.fabricmc.api.ModInitializer;
 
 import java.util.logging.Logger;
 
+import static rings_of_saturn.github.io.deeper_aquatic.components.ModComponents.registerModComponents;
 import static rings_of_saturn.github.io.deeper_aquatic.item.Items.registerItems;
+import static rings_of_saturn.github.io.deeper_aquatic.networking.Packets.registerC2SPackets;
 import static rings_of_saturn.github.io.deeper_aquatic.particle.Particles.registerParticles;
 import static rings_of_saturn.github.io.deeper_aquatic.sound.Sounds.registerSounds;
 
@@ -17,6 +19,7 @@ public class DeeperAquatic implements ModInitializer {
         registerItems();
         registerSounds();
         registerParticles();
-
+        registerModComponents();
+        registerC2SPackets();
     }
 }

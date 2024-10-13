@@ -1,9 +1,27 @@
 {
   "prismium_idle": {
+    "subtitle": "prismium.idle",
     "sounds": [
       {
         "name": "deeper_aquatic:prismium_idle",
-        "subtitle": "prismium.idle",
+        "stream": true
+      }
+    ]
+  },
+  "prismium_saber_swing": {
+    "subtitle": "prismium.saber.swing",
+    "sounds": [
+      {
+        "name": "deeper_aquatic:prismium_saber_swing",
+        "stream": true
+      }
+    ]
+  },
+  "prismium_saber_dash": {
+    "subtitle": "prismium.saber.dash",
+    "sounds": [
+      {
+        "name": "deeper_aquatic:prismium_saber_dash",
         "stream": true
       }
     ]

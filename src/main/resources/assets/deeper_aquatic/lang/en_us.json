@@ -1,0 +1,11 @@
+{
+  "item.deeper_aquatic.prismium": "Prismium",
+  "item.deeper_aquatic.prismium_saber": "Prismium Saber",
+
+  "key.category.deeper_aquatic.deeper_aquatic": "Deeper Aquatic",
+  "key.deeper_aquatic.dash": "Activate Prismium Saber Dash",
+
+  "prismium.idle": "Prismium Beats",
+  "prismium.saber.swing": "Prismium Saber Swings",
+  "prismium.saber.dash": "Player Dashes"
+}

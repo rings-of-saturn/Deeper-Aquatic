@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "id": "deep_sea",
+  "id": "deeper_aquatic",
   "version": "${version}",
-  "name": "Deep Sea",
+  "name": "Deeper Aquatic",
   "description": "A mod that changes skins dynamically based on your enviourment!",
   "authors": [],
   "contact": {},
